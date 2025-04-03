@@ -10,7 +10,7 @@ if choice in ('1', '2', '3', '4'):
     try:
         num1 = float(input("Enter the first number: "))
         num2 = float(input("Enter the second number: "))
-
+        
         if choice == '1':
             print(f"Result: {num1 + num2}")
         elif choice == '2':
@@ -26,3 +26,4 @@ if choice in ('1', '2', '3', '4'):
         print("Invalid input. Please enter numeric values.")
 else:
     print("Invalid choice. Please select a valid option (1-4).")
+ 
